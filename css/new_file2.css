@@ -197,6 +197,9 @@ background: url(../images/ss2.jpg)no-repeat;
 	display: flex;
 	gap: 20px; /* 标签之间的间距 */
 	margin-bottom: 30px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); /* 定义2列，自动等分宽度 */
+	gap: 16px; /* 按钮之间的上下左右间距，可自由调整 */
 }
 .tab-item {
 	padding: 10px 100px;
